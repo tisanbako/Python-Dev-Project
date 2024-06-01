@@ -13,6 +13,60 @@ if not is_raining:
 
 
 
+#2. Loop Control: To continue or break out of a loop based on a condition that should not be true.
+
+password_correct = False
+
+while not password_correct:
+    password = input("Enter the password: ")
+    if password == "secret":
+        password_correct = True
+    else:
+        print("Incorrect password, try again.")
+
+
+
+#3. Function Return Values :To check if a function returns False or an empty value, and then take action.
+
+def is_user_logged_in():
+    # This function returns True if the user is logged in, False otherwise
+    return False
+
+if not is_user_logged_in():
+    print("Please log in to continue.")
+
+
+
+
+#4. Boolean Algebra :Inverting conditions in complex logical expressions.
+a = True
+b = False
+
+result = not (a and b)  # True, because (a and b) is False, and not False is True
+
+
+
+#5. Ensuring Certain Conditions Are Not Met: To ensure that certain conditions are explicitly not met.
+items = ["apple", "banana", "cherry"]
+
+if "orange" not in items:
+    print("Orange is not in the list.")
+
+
+
+#6. User Input Validation: To check if user input does not meet certain criteria.
+user_input = input("Enter a number: ")
+
+if not user_input.isdigit():
+    print("Please enter a valid number.")
+
+
+
+
+
+
+
+
 
 
 
