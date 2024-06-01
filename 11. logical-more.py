@@ -61,6 +61,25 @@ if not user_input.isdigit():
     print("Please enter a valid number.")
 
 
+#7. Practical Example: Login System 
+#Let's consider a practical example of a simple login system where we check if a user is 
+#not logged in:
+
+def login(username, password):
+    # Imagine this function checks the credentials and returns True if correct
+    return username == "user" and password == "pass"
+
+logged_in = False
+
+if not logged_in:
+    username = input("Username: ")
+    password = input("Password: ")
+    logged_in = login(username, password)
+
+    if not logged_in:
+        print("Login failed. Please try again.")
+    else:
+        print("Login successful!")
 
 
 
