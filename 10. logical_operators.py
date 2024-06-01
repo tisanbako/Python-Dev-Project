@@ -21,6 +21,7 @@ if has_high_income and has_good_credit:
     print("Eligible for loan")
 
 
+#EX 2 (OR)
 ##If an applicant has high income or good credit
     #You can get the loan
 
@@ -32,3 +33,13 @@ if high_income or good_credit:
 
 
 #ex3 . (NOT)    
+##If an applicant has good credit and does not have a criminal record
+    #You can get the loan
+
+credit_good = True
+criminal_record = True
+
+if credit_good and not criminal_record:
+    print("loan guaranteed to get")
+else:
+    print("No loan")
