@@ -3,7 +3,8 @@
 #checking, loop control, and ensuring certain conditions are not met. 
 #Here are some common use cases and examples:
 
-#1. Conditional Statements : When you want to execute a block of code only if a certain condition is not true.
+#1. Conditional Statements : When you want to execute a block of code only if a certain condition 
+#is not true.
 
 is_raining = False
 
@@ -21,6 +22,7 @@ while not password_correct:
     password = input("Enter the password: ")
     if password == "secret":
         password_correct = True
+    
     else:
         print("Incorrect password, try again.")
 
