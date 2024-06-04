@@ -11,7 +11,7 @@
     #Car started ... Ready to go!
 #when you type stop
     #Car stopped.
-#when you type quit the whole the quits.
+#when you type quit the whole program quits.
 
 # command = ""
 
