@@ -30,4 +30,16 @@ greet_user3("John", "Carey")
 greet_user3("Mary", "Mathew") 
 print("nice to meet you")
 
-#Positional & keyword arguments: 
+#Positional & keyword arguments: in the above calling of functions john is the first_name and Carey
+#is the second name. if we write care first while calling the function, that would make carey the 
+#first name. if we want to be specific we can use keyword argument (although most times it is
+#the positional argument that we use) ex of keyword arguments to call greet_user3
+
+greet_user3(last_name="Carey", first_name="John") #even id i mix the params positions when calling
+
+#Positional argument before ketword argument.
+def greet_user4(first_name, last_name):
+    print(f"Hi {first_name, last_name}")
+    print("Welcome aboard")
+
+greet_user4("James", last_name="Terry") 
