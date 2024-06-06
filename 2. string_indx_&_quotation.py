@@ -22,3 +22,8 @@ print(course4[2:])
 print(course4[:5])
 print(course4[1:-1])
 
+course5 = """
+Hello how are you?
+this is course 5 
+"""
+print(course5)

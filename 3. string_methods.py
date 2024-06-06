@@ -3,6 +3,11 @@ print(len(course)) #len is a general method use for all data types.. lets use so
 course2 = course.replace("python", "Java")
 print(course2)
 
+course8 = "does Tisan havae it"
+course9 = course8.replace("Tisan", "Bako")
+print(course9)
+
+
 name = "Jeremiah"
 name2 = name.upper()
 print(name2)
