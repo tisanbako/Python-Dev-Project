@@ -19,22 +19,16 @@
 #        unique_number.append(unique)
 # print(unique_number)    
 
-#Price of a house is $1M
-#if buyer has good credit, they need to put down 10%
-#otherwise 
-#they need to put down 20%
-house_price = 1000000
-good_credit = input("Do you have good credit? (Y/N) ").upper()
-#good_credit = good_credit.upper()
 
+good_health = True
+good_credit = True
 
-if good_credit == "Y": 
-    down_payment = 10 * 1000000 / 100
-    print(f"your Ten percent down payment is {down_payment}")
+items = [1,2,3,2,3,4,4,4,6,3,0,8]
+tem3 = []
 
-elif good_credit == "N":
-    down_payment = 20 * 1000000 / 100
-    print(f"your Ten percent down payment is {down_payment}")
-else:
-    print("You can only choose Y or N ")
+for i in items:
+    if i not in tem3:
+         tem3.append(i)
+print(tem3)
+
 

@@ -29,7 +29,7 @@ else:
 print("#Enjoy your day")    
 
 
-#Ex 1.
+#Ex 2.
 
 #Price of a house is $1M
 #if buyer has good credit, they need to put down 10%
