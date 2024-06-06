@@ -1,4 +1,4 @@
-#We use while look to run a block of code multiple times. we use it to create interactive programes
+#We use while loop to run a block of code multiple times. we use it to create interactive programes
 #or games.
 
 number = 1

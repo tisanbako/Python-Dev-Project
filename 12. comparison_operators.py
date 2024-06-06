@@ -35,6 +35,7 @@ print("Have a good day")
 
 name = input("What is your name? ")
 name_characters = len(name)
+#me name = len(input("What is your name? "))
 
 if name_characters < 3:
     print("Name must be atleast 3 characters")

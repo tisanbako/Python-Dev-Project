@@ -35,6 +35,12 @@ numbers6.reverse() #to print from 471275
 print(numbers6)
 
 
+name1 = [1,2,3,4,5]
+name2 = []
+name2.append(name1) #wrapping this in a variable will give us none
+print(name2)
+
+
 #EX - remove the duplicate on the list [2,5,,7,3,4,2,7]
 
 the_list = [2,5,7,3,4,2,7]
