@@ -23,3 +23,14 @@
      #name looks good!
 
 
+#ex4 
+#Lets write a code for a game that will guess a secret number.
+#we want players to guess only 3 times, not more than 3
+
+secret_number = int(input("what is the secret? "))
+guess_count = 0
+max_try = 3
+
+while max_try < guess_count:
+    if secret_number == 1234
+    
