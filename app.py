@@ -20,15 +20,5 @@
 # print(unique_number)    
 
 
-good_health = True
-good_credit = True
-
-items = [1,2,3,2,3,4,4,4,6,3,0,8]
-tem3 = []
-
-for i in items:
-    if i not in tem3:
-         tem3.append(i)
-print(tem3)
 
 
