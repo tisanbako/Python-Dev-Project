@@ -1,4 +1,4 @@
-#Lets learn how to handle erros in out program.
+#Lets learn how to handle erros in out program
 
 #Ex1 lets write a program that will print users age on the terminal
 

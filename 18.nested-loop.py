@@ -1,4 +1,4 @@
-#nested look means adding a loop inside another loop 
+#nested loop means adding a loop inside another loop 
 numbers = [5,2,5,2,2]
 start_count = "x"
 
@@ -19,5 +19,9 @@ for x_count in number:
         output += "x"
     print(output)
 
+
 print("5" + "x")    
+
+putt = "m" + "m"
+print(putt)
 
