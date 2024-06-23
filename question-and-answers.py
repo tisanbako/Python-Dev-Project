@@ -5,7 +5,7 @@
 #they need to put down 20%
 
 
-#
+#2
 #if temperatute is greater than 30
    #It's a hot day
 #otherwise if it's less than 10
