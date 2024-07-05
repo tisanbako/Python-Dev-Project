@@ -8,3 +8,7 @@ is_patient = False
 
 name = input("what is your name? ")
 print(f"hi {name}")
+
+
+#Rename variable
+#Right click on the variable-rename-enter and it will change the name on all the reference
