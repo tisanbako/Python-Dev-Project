@@ -22,3 +22,19 @@
 
 
 
+#Price of a house is $1M
+#if buyer has good credit, they need to put down 10%
+#otherwise 
+#they need to put down 20%
+
+house_price = 1000000
+good_credit = input("do you have a good credit? ")
+
+
+if good_credit == "yes".upper():
+    down_payment = 10 * 1000000 / 100
+    print(f"your down payment is {down_payment}")
+else:
+    down_payment = 20 * 1000000/100
+    print(f"your down payment is {down_payment}")
+
